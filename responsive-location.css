@@ -1,0 +1,105 @@
+@media screen and (min-width: 500px) {
+
+    body {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    body {
+        min-width: 768px;
+        max-width: 930px;
+    }
+
+
+    .content {
+        display: inline-flex;
+        padding: 8% 5% 10% 5%;
+    }
+
+    .content h1 {
+        font-size: 5em;
+        padding-right: 12%;
+        cursor: default;
+    }
+
+
+
+    .contacts {
+        margin: 5% 6% 10% 6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contacts p {
+        width: 40%;
+        margin: 0;
+    }
+
+    .icons {
+        margin: 0;
+        width: 15%;
+    }
+
+    #map{
+        background: url(assets/tablet/image-map.png) no-repeat;
+    }
+}
+
+
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+
+    body {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    body {
+        min-width: 1200px;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    .button{
+        left: 10%;
+    }
+
+    #map{
+        background: url(assets/desktop/image-map.png);
+    }
+  
+
+    .content {
+        display: inline-flex;
+        padding: 8% 10% 10% 10%;
+    }
+
+    .content h1 {
+        font-size: 6em;
+        padding-right: 25%;
+    }
+
+    .content h2 {
+        font-size: 3em;
+    }
+
+
+    .contacts{
+        margin: 5% 10% 5% 10%;
+    }
+
+}
+
+
+
+
+
+

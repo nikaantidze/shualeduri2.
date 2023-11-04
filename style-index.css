@@ -1,0 +1,238 @@
+/*----RESET CSS----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Big Shoulders Display';
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.tablet-header{
+    display: none;
+}
+.tablet-grid1{
+    display: none;
+}
+.tablet-grid2{
+    display: none;
+}
+.tablet-grid3{
+    display: none;
+}
+.desktop-header{
+    display: none;
+}
+.desktop-grid1{
+    display: none;
+}
+.desktop-grid2{
+    display: none;
+}
+.desktop-grid3{
+    display: none;
+}
+.black-screen-desk{
+    display: none;
+}
+
+
+
+
+
+body{
+    line-height: 1;
+    min-width: 375px;
+    max-width: 500px;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header img{
+    width: 100%;
+}
+
+header{
+    color: rgb(21, 21, 21);
+}
+
+header h1{
+    margin: 2% 3%;
+    font-size: 3.5em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+header p{
+    margin: 0 3%;
+    font-size: 1.125em;
+    font-weight: lighter;
+    line-height: 1.6em;
+    color: rgb(68, 68, 68);
+    font-family: 'Outfit', sans-serif;
+}
+
+.button {
+    display: flex;
+    height: 72px;
+    margin: 6% 3%;
+    width: 260px;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.button:after{
+    content: url(./assets/icon-arrow-right.svg);
+    position: relative;
+    left: 9%;
+    line-height: 5rem;
+    width: 56px;
+    height: 72px;
+    background-color: rgb(213, 150, 108);
+}
+
+.button:hover {
+    background-color: rgb(213, 150, 108);
+}
+
+.button:hover::after {
+    background-color: rgb(21, 21, 21);
+}
+
+
+
+
+.content{
+    margin: 15% 3%;
+}
+
+.mobile-grid1 img{
+    width: 100%;
+}
+
+.content img:hover{
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content h2{
+    margin-top: 2%;
+    font-size: 4em;
+    font-weight: 700 ;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgb(21, 21, 21);
+}
+
+.content p{
+    font-size: 1.125em;
+    font-weight: lighter;
+    line-height: 1.6em;
+    color: rgb(68, 68, 68);
+    font-family: 'Outfit', sans-serif;
+    padding-right: 5%;
+}
+
+.mobile-grid2 img{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.mobile-grid3 img{
+    margin-top: 3%;
+    width: 100%;
+}
+
+
+
+.inspiring-section{
+    margin-top: 3%;
+    background-color: rgb(21, 21, 21);
+}
+
+.inspiring-section:hover{
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inspiring-title{
+    padding: 8%;
+}
+
+.inspiring-title h2{
+    height: 100%;
+    letter-spacing: 0.08em;
+    color: rgb(255, 255, 255);
+}
+
+.inspiring-title p{
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+
+
+footer{
+    margin-top: 10%;
+    background-color: rgb(21, 21, 21);
+    width: 100%;
+}
+
+.contacts{
+    margin: 10% 8%;
+}
+
+.contacts h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.contacts p{
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.icons{
+    margin-top: 10%;
+}
+
+svg{
+    margin-right: 5%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+svg:hover{
+    color: rgb(213, 150, 108);
+}
+
+
